@@ -1,0 +1,247 @@
+body {
+ background-position: fixed;
+ z-index:1;
+}
+
+.body1 {
+   font-family:'Nobile', Helvetica, Arial, sans-serif; 
+    z-index: 1; 
+    background-color: rgba(255,255,255,0.6);
+    position: relative;
+    top: 25;
+    left: 25;
+    margin-bottom: 30px;
+    margin-left:200px;
+    margin-right:200px;
+ 
+}
+
+.bimage {
+position: absolute;
+background-image: url("http://www.morganmckinley.com.cn/sites/morganmckinley.com.cn/files/styles/large/public/winding%20road.jpg?itok=8WliGTWC") no-repeat center center fixed;
+}
+
+/* 
+.quote {
+background-image: url("http://www.huntsintexas.com/wp-content/uploads/2012/02/weathered-wood-grain-texture.jpg") no-repeat center center fixed;
+margin-left: 200px;
+margin-bottom: -100px;
+font-size:20px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+font-weight:bold;
+border:5px;
+color: white;
+z-index: 1;
+
+}
+        
+.laverne {
+text-align:center;
+margin-left: 200px;
+font-size:15px;
+font-family:Verdana;
+color: white;
+z-index: 1;
+}
+ */
+
+.blurb {
+        border-radius: 30px;
+        margin-top:0px;
+        margin-left: 92px;
+        padding:15px;
+        text-align:center;
+        font-size:30spx;
+        color:white;
+        font-family: 'Bio_hand_Cre', Georgia, Times, serif;
+        position: relative;
+        height: 140px;
+        width: 950px;
+        bottom:0px;
+        }
+    
+h1 {
+    padding-top: 100px;
+    font-family:'Robingraffiti', Helvetica, Arial, sans-serif;
+    color:white;
+    text-align:center;
+    font-size:100px;
+    margin: 0 auto;
+    }
+    
+.twitter_name {
+position: relative;
+margin-left: 450px;
+margin-top: -100px;
+padding-top: -100px;
+color: black;
+
+    }
+input[type='text']{
+font-size:20px;
+}
+    
+    .quiz {
+    font-family:'Bio_hand_Cre'; 
+    z-index: 1; 
+    background-color: rgba(255,255,255,0.8);
+    position: relative;
+    top: 25;
+    left: 25;
+    margin-bottom: 30px;
+    margin-left:200px;
+    margin-right:200px;
+    font-weight: bold;
+    
+    }
+    .home {
+    font-family:'Nobile', Helvetica, Arial, sans-serif; 
+    z-index: 1; 
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    left: 0;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    
+    
+    }
+    
+    
+    .question {
+    text-align:left;
+    padding-left: 20px;
+    font-family: 'Bio_hand_Cre', Georgia, Times, serif;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    }
+    
+     .answers {
+    text-align:left;
+    padding-left: 20px;
+    font-family: 'Bio_hand_Cre', Georgia, Times, serif;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    }
+    
+.answers li { 
+list-style-type: upper-alpha; 
+position:absolute; 
+z-index:2; 
+margin:100% 0 0;
+} 
+
+label { 
+margin-left: 0.5em; 
+cursor: pointer; 
+} 
+
+#results { 
+position: relative;
+z-index: 1;
+margin-left: 300px;
+width: 20%;
+padding: 20px;
+padding-top: 17px;
+}
+
+#categorylist { 
+margin-top: 6px; 
+display: none; 
+} 
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
+display: none; 
+}
+
+#closing {
+display: none;
+font-style: italic;
+}
+
+h4 {
+font-size: 50px;
+font-family: 'Corben', Georgia, Times, serif;
+width: 100%;
+height: 10%;
+padding-top: 100px;
+padding-left: 50px;
+
+
+}
+ 
+h5 {
+        background-color: #33CCFF;
+        margin-left: 7px;
+        font-size:75px;
+        font-family: 'Corben', Georgia, Times, serif;
+        position: absolute;
+        border-radius: 25px;
+
+}
+
+.bubble {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin-left: 300px;
+    background: #33CCFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+  .bubble:after {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: -36px;
+    border-style: solid;
+    border-width: 11px 36px 11px 0;
+    border-color: transparent #33CCFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+ 
+
+.outerx{
+width:50%;
+margin-left:25%;
+border:1px solid #000;
+background: transparent url("http://www.photos-public-domain.com/wp-content/uploads/2012/05/ivory-off-white-paper-texture.jpg") left top;
+opacity: 0.8;
+}
+
+.innerx{
+background: url("https://nancytinarirunswrites.files.wordpress.com/2012/10/marcosshirt.jpg") repeat-y right top;
+width:100%;
+padding:1em 0;
+height: 40%;
+}
+
+
+.outerx2{
+width:50%;
+margin-left:25%;
+border:1px solid #000;
+background:url("http://www.photos-public-domain.com/wp-content/uploads/2012/05/ivory-off-white-paper-texture.jpg") left top;
+opacity:0.6;
+padding-left:20px;
+}
+
+.bird {
+z-index: -1;
+
+}
+
+/* mac hide \*/
+* html .innerx2{height:1%}
+/* force "layout" in IE */
+.outerx2 p{padding:0 10px;margin:0 0 1em 0}
+    
+
+    
+    

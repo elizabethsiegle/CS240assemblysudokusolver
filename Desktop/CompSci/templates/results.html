@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/mystyle.css">
+  <!--<script type=’text/javascript’> var results.html = ‘{{ filename }}'; </script> -->
+    <title>Subconscious Path</title>
+  </head>
+
+  <div class = "bird" style = "position: fixed; top: 400; left: 0">
+  <img src = "http://www.amstevenson.net/images/icons/twitterblue.png">
+  </div>
+   <body style = "background-color: white">
+   <h4> Have you ever considered being a....
+   </h4>
+   {% if data %}
+    <div class = "bubble">
+  <h5> {{ data }}?</h5>
+{% else %}
+  <h5>Hello World!</h5>
+{% endif %}
+</div>
+  </div>
+   </body>
+   </html>
+   
