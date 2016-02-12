@@ -1,0 +1,114 @@
+<!-- I have weird texting, so was unable to gain access to Twitter API to pull Trump's Tweets--so these are hardcoded. Once I do get access to the API, won't use hard-coded quotes+Tweets, and will also work on a TwitterBot. -->
+<html>
+<head>
+	<title>Donald Trump Quote Generator</title>
+	<style>
+	#btnSearch {
+		position: absolute;
+		left: 40%;
+		top: 50%;
+		background-color: #ccc;
+    	-moz-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+    	border-radius:6px;
+    	color: #fff;
+    	font-family: 'Oswald';
+    	font-size: 20px;
+    	text-decoration: none;
+    	cursor: pointer;
+    	border:none;
+		}
+	#btnSearch:hover {
+		border: none;
+    	background:red;
+    	box-shadow-shadow: 0px 0px 1px #777;
+	}
+	#message {
+		text-align: center;
+		bottom: 35%;
+		position: absolute;
+		font-size: 20px;
+		font-weight: 10px;
+		color: blue;
+	}
+	body {
+		background-image: url("trumphair.jpg");
+	}
+	#message {
+		left:80px;
+		/*height: 45px;*/
+		right:80px;
+		bottom:150px;
+		background-color: white;
+		display:inline-block;
+		/*text-align: center;*/
+	}
+	footer {
+		position: absolute;
+  		right: 0;
+  		bottom: 0;
+  		left: 0;
+  		padding: .25rem;
+  		background-color: #efefef;
+  		text-align: center;
+  		/*height:3px;*/
+	}
+	</style>
+</head>
+<body>
+
+	<input type="button" id="btnSearch" value="Generate a Trump quote!" onclick="GetValue();"/>
+	<div style="display:flex;justify-content:center;align-items:center;">
+	<p id ="message"></p>
+</div>
+<footer>
+	<center>
+		Made with <3 <a href = "http://www.twitter.com/lizziepika">@lizziepika </center>
+	</footer>
+	<script>
+	function GetValue() {
+		 var myArray = new Array(
+		 	"Sometimes your best investments are the ones you don&#39;t make.", 
+		 	"I try to learn from the past, but I plan for the future by focusing exclusively on the present. That&#39;s were the fun is.",
+		 	"Sometimes by losing a battle you find a new way to win the war.",
+		 	"All of the women on The Apprentice flirted with me - consciously or unconsciously. That&#39;s to be expected.", 
+		 	"Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game.", 
+		 	"What separates the winners from the losers is how a person reacts to each new twist of fate.",
+		 	"Everything in life is luck.",
+		 	"You have to think anyway, so why not think big?",
+		 	"As long as your going to be thinking anyway, think big.",
+		 	" I&#39;m the worst thing that&#39;s ever happened to ISIS.",
+			"He&#39;s not a war hero. He&#39;s a war hero because he was captured. I like people who weren&#39;t captured.",
+			"You know, it really doesn&#39;t matter what the media write as long as you&#39;ve got a young and beautiful piece of ass.",
+			"The concept of global warming was created by and for the Chinese in order to make the U.S. manufacturing non-competitive.",
+			"Listen you m-----f------, we&#39;re going to tax you 25 percent!",
+			"When was the last time anybody saw us beating, let&#39;s say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+			"The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our 'leaders' can&#39;t say no!" , 
+			"I will build a great wall--and nobody builds walls better than me, believe me-—and I&#39;ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words." ,
+			"When Mexico sends its people, they&#39;re not sending the best. They&#39;re not sending you, they&#39;re sending people that have lots of problems and they&#39;re bringing those problems with us. They&#39;re bringing drugs. The&#39;re bringing crime. They&#39;re rapists. ... And some, I assume, are good people." ,
+			"The wall will go up and Mexico will start behaving.",
+			"Our great African American President hasn&#39;t exactly had a positive impact on the thugs who are so happily and openly destroying Baltimore!",
+			"Laziness is a trait in the blacks. ... Black guys counting my money! I hate it." ,
+			"The only kind of people I want counting my money are little short guys that wear yamakas every day." , 
+			"If I were running 'The View,' I&#39;d fire Rosie [O'Donnell]. I mean, I&#39;d look her right in that fat, ugly face of hers, I&#39;d say, 'Rosie, you&#39;re fired.'" , 
+			"Rosie O&#39;Donnell&#39;s disgusting both inside and out. You take a look at her, she&#39;s a slob. She talks like a truck driver, she doesn&#39;t have her facts, she&#39;ll say anything that comes to her mind." ,
+			"@ariannahuff is unattractive both inside and out. I fully understand why her former husband left her for a man-he made a good decision." ,
+			"Hillary Clinton was the worst Secretary of State in the history of the United States. There&#39;s never been a Secretary of State so bad as Hillary. The world blew up around us. We lost everything, including all relationships. There wasn&#39;t one good thing that came out of that administration or her being Secretary of State." ,
+			"If you can&#39;t get rich dealing with politicians, there&#39;s something wrong with you." ,
+			"We build a school, we build a road, they blow up the school, we build another school, we build another road they blow them up, we build again, in the meantime we can&#39;t get a f------ school in Brooklyn." ,
+			"A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate." ,
+			"Free trade is terrible. Free trade can be wonderful if you have smart people. But we have stupid people [in office]." ,
+			"I saw a report yesterday. There&#39;s so much oil, all over the world, they don&#39;t know where to dump it. And Saudi Arabia says, &#39;Oh, there&#39;s too much oil.&#39; Do you think they&#39;re our friends? They&#39;re not our friends." ,
+			"One of the key problems today is that politics is such a disgrace. Good people don&#39;t go into government." 
+
+
+
+
+
+			);
+		var rand = myArray[Math.floor(Math.random()*myArray.length)];
+		document.getElementById("message").innerHTML=rand;
+	}
+	</script>
+</body>
+</html>
